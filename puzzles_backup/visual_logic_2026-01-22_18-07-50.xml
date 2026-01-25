@@ -1,0 +1,121 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="19.999999999999886" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="151.39556174987217" scrolly="133.6525228736945" scale="0.6462918476208765">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="L@~:5|Wm]:0$7Ha/5!M+" inline="false" x="-210" y="-10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="nu@FL$^}Y[#[{yt$IxK|">
+          <field name="FIELDNAME">Click Invasive Birds</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="addAnnotation" id="6eYa=FD+R+e.,c+BD!:Z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="iZh)iUP5Z[ci,c1WdclW">
+              <field name="TEXT">1</field>
+            </shadow>
+            <block type="text" id="k,HQm),IeHlRRxw5,1wJ">
+              <field name="TEXT">click to know more about the invasive birds</field>
+            </block>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="oB6@0{lme3%xqCc6+$hq">
+              <field name="FIELDNAME">ICON invasive birds</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="zTIgA0}TJew=${6GEJYV">
+              <field name="TEXT">Point of interest #1</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="jBS!nx+(zT4X#cB|ka5V">
+              <field name="TEXT">poi1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="removeAnnotation" id="]HYVJ[r$f:f2-.[C^nXF">
+          <value name="TARGET">
+            <shadow type="objectList" id="(J|+GS@%h:$TvyF|7gp,">
+              <field name="FIELDNAME">ICON invasive birds</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="7]wbs7DlBVj4#AJWI7T=" inline="true" x="-190" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="true" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">TRUE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="NNSKK-F+eos))19b(9;I">
+          <field name="FIELDNAME">Click Invasive Birds</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="openWebPage" id="72ax%cj3FHgv%Jf9vTA1">
+          <field name="MODE">NEW</field>
+          <value name="URL">
+            <shadow type="text" id="p9P(oI%;4S.6w0`J3jv$">
+              <field name="TEXT">https://www.youtube.com/watch?v=BB2cRp17xW0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="@bFBzFE`-W_K7`{NNU3}" inline="false" x="-170" y="450">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="qO4}JEV,+,1u}w}?g=-R">
+          <field name="FIELDNAME">Click Invasive Birds</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="addAnnotation" id="X6m{VKEO.P(I}GQ~;u_6">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="iZh)iUP5Z[ci,c1WdclW">
+              <field name="TEXT">1</field>
+            </shadow>
+            <block type="text" id="uNQtUD4M,].V?xy6n2+0">
+              <field name="TEXT">click to know more about the invasive birds</field>
+            </block>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="aw#quX;|==)Z;OGgJ(FR">
+              <field name="FIELDNAME">ICON invasive birds</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="l3]%Do5_a7|qJob!Ohbn">
+              <field name="TEXT">Point of interest #1</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id=";Z^|++-npKB4LJ5w7*.L">
+              <field name="TEXT">poi1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="removeAnnotation" id="SQ]X:mlY;!lCi~Vnj*8K">
+          <value name="TARGET">
+            <shadow type="objectList" id="2L#^}Bbu9,xESxmDL4|n">
+              <field name="FIELDNAME">ICON invasive birds</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="846" viewport-y="37" viewport-w="576" viewport-h="345" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
